@@ -1,0 +1,11 @@
+@use '../base/variables' as *;
+
+.woocommerce {
+  ul.products li.product .button,
+  a.button.alt,
+  button.button.alt {
+    background: $accent;
+    color: #fff;
+    border-radius: 6px;
+  }
+}

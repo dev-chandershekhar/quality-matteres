@@ -1,0 +1,9 @@
+@use 'variables' as *;
+
+body {
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  color: $primary;
+  background: $bg;
+  line-height: 1.6;
+}
+a { color: $accent; }
